@@ -1,0 +1,74 @@
+body,h1,h2,p{
+    margin: 0;
+    padding: 0;
+    background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBwcHBwgHBwcHBwoHBwcHBw8ICQcKIBEiIhUREx8YHSggGCYlGxUfITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQ0NDg0NDisZFRk3Ny0rNysrKy0rLSsrNzc3KysrKys3KysrKystKysrKysrKysrKysrKysrKysrKysrK//AABEIALcBEwMBIgACEQEDEQH/xAAaAAEBAQEBAQEAAAAAAAAAAAAAAQIEBQcD/8QAFhABAQEAAAAAAAAAAAAAAAAAABEB/8QAGQEBAQEBAQEAAAAAAAAAAAAAAAECBAMF/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oADAMBAAIRAxEAPwD7YA8WRAaABVAFABVAAFQVVRUUAAAAARAASAAyACAmqmoImrqaNYymrqaN4gCxp0AiY5VEGgAFFQUFQVVAUFRVUAABAAAQNABBAATQAZABBNZa1nRcTU1dZ0bwEFadAgmOZUBQAVVQFVRFUMVBVVUFFAFAQBFRABBAEBUBAAZABBGdXU0XE1nV1NG8QQGnSIDmARRRFVQBVURVFEBVxUFVRAFEAAQAQRAEABEFEE0UQQNZ1WdRcNZ1dZ1W8QAadAgjmUQUUQaxVEBVVBRRBVaEBVEAUQBUEBUEEUQQBAFEEAE1kNZ01NFxNTTWdVvFRAadIgjmUQUUQaVVZUFEBVVkVWhAFEBVEAVBAUQEBBBUEBRBBU3UqboYbrOm6m6NYazum6zujWLRmitOoREczQgoogKogCqytVVEAVWSitDNAaGQFEAWogCiICiFQURKIu6zum6zuirus7pus7o1hupum6zurG8KM0I06xKI5FEBWhmlBoZqqqiFBVZpVVqlZpVGqVmlRWqM0BpEpQWiJQUSiIoiUFqVKm6Ku6zulZ3RV3Wd1N1N1WsN1N1N1ndVvFqsUI07alSlYca0qVKo1SpSqrVKzSqNUrNWirVZpQaGaCtFZKDVSoUFpUqUGqM0oLSpUoNVN1mpUg1Wd1Km6RVqbqbrO6rS7rO6brO6saxd1ndTdZ3SN41UZosad1KzSsRwtUrNKqtUrNKDVKzSit0rFKDdKzSitFZpVGis0oNUrNKg1Ss1Ko1Ss1KK1Ss1KQaqVmpSKtTdTdZ3VitVndSs7pGmt1ndTdZ3VjWLupupus7qxrFoxQjT0KVKlebhapWaVRqlZqVYrdKxVpBqlZpSK1Ss0pBqrWKUit0rFKDVKxSkG6VipSK3UrNSrBupWKUitVKzUpFa3Wd1ndTdWK1upus7rO6saxrdZ3U3Wd0jWNbrO6m6zurGsWq/Oixt6VKDxfOKUFVKUFClAUpQVSlAClAClAUqUAKlAUqUFEpUBSs7qgrNTdBWk3Wd0FXE3Wd0BrGd1N1BrG8SgDT/2Q==);
+}
+div{
+    border:1px solid rgb(230, 235, 235);
+}
+
+.container p{
+    border-radius: 50%;
+    box-sizing: content-box;
+    border-color: rgb(112, 196, 52);
+}
+
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #090b0f; /* Text color */
+    background-color: rgb(211, 191, 212);
+    
+}
+
+header {
+    background-color: #131212;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+section {
+    padding: 2em;
+}
+
+.project {
+    border: 1px solid #ccc;
+    padding: 1em;
+    margin-bottom: 20px;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container img {
+    max-width: 150px; /* Set a maximum width for the profile image */
+    height: auto;
+    border-radius: 5%;
+    border: 2px solid #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+
+/* Media Queries for responsive design */
+@media (max-width: 768px) {
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
